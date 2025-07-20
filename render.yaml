@@ -1,6 +1,4 @@
-services:
-  - type: web
-    name: alpina-bot
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python bot.py"
+runtime: python
+pythonVersion: 3.10
+buildCommand: pip install -r requirements.txt
+startCommand: python bot.py
