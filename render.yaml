@@ -9,4 +9,4 @@ services:
     autoDeploy: true
     envVars:
       - key: TELEGRAM_TOKEN
-        value: <твой_бот_токен>
+        value:'8060264514:AAFvnWV6DoSueOS4yV68SUNwJ-_rpSZxNYE'
