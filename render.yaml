@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: alpina-water-bot
+    env: python
+    plan: free
+    region: frankfurt
+    buildCommand: ""
+    startCommand: "python bot.py"
+    autoDeploy: true
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: <твой_бот_токен>
